@@ -1,0 +1,25 @@
+.newsSources {
+  display: flex;
+  justify-content: center;
+}
+
+.nsContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 1024px;
+}
+
+.nsItems {
+  width: 100%;
+  max-width: 1024px;
+  margin: 10px;
+}
+
+.nsItemsFlex {
+}
+
+.nsItemsLogo img {
+  width: 75px;
+  height: 75px;
+}

@@ -1,0 +1,9 @@
+{
+  "development": {
+    "username": "rizki",
+    "password": "13926admin",
+    "database": "news_aggregator",
+    "host": "localhost",
+    "dialect": "postgres"
+  }
+}
