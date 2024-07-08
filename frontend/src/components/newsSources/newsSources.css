@@ -16,12 +16,52 @@
   margin: 10px;
 }
 
+.nsItemsContainer {
+  margin-right: 75px;
+}
+
+.nsItemsContainer h4 {
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+.nsItemsContainer h5 {
+  font-size: 15px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
 .nsItemsFlex {
   display: flex;
   justify-content: center;
+  align-items: center;
+}
+
+.nsItemsLogo {
+  flex: 1;
 }
 
 .nsItemsLogo img {
   width: 75px;
   height: 75px;
+}
+
+.nsItemsLogo svg {
+  width: 45px;
+  height: 45px;
+  position: relative;
+  top: -15px;
+  right: -16px;
+}
+
+.nsItemsList {
+  flex: 2;
+}
+
+.nsItemsList li {
+  list-style: none;
+}
+
+.nsItemsList svg {
+  margin-right: 10px;
 }
