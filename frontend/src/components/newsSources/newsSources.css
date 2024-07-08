@@ -17,6 +17,8 @@
 }
 
 .nsItemsFlex {
+  display: flex;
+  justify-content: center;
 }
 
 .nsItemsLogo img {
