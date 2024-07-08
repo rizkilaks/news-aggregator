@@ -1,7 +1,9 @@
 import React from "react";
 import "./header.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faNewspaper } from "@fortawesome/free-regular-svg-icons";
+import { faBookmark, faNewspaper, faSave, faUser } from "@fortawesome/free-regular-svg-icons";
+import { faCogs, faFilter, faGlobe } from "@fortawesome/free-solid-svg-icons";
+import { faReadme } from "@fortawesome/free-brands-svg-icons";
 
 const Header = () => {
   return (
@@ -37,19 +39,22 @@ const Header = () => {
       <div className="headerTwo">
         <div className="featureList">
           <div className="featureItems">
-            <FontAwesomeIcon icon={faNewspaper} />
-            <h5>Stay Informed with Real-Time Global News</h5>
-            <p>Stay Ahead of the Curve with Instant Access to Breaking News from Around the Globe</p>
+            <FontAwesomeIcon icon={faGlobe} />
+            <h5>Real-Time Global News</h5>
+            <p>Stay ahead with real-time updates on global events, ensuring you're always in the loop.</p>
           </div>
           <div className="featureItems">
-            <FontAwesomeIcon icon={faNewspaper} />
+            <FontAwesomeIcon icon={faUser} />
             <h5>Personalized News Experience</h5>
-            <p>Tailor Your News Feed to Your Interests - Only See What Matters to You</p>
+            <p>
+              Craft a news feed tailored to your interests, ensuring you only see the stories that resonate with you the
+              most.
+            </p>
           </div>
           <div className="featureItems">
-            <FontAwesomeIcon icon={faNewspaper} />
-            <h5>Read and Save for Later</h5>
-            <p>Busy Now? Save Your Favorite Articles and Read Them at Your Convenience</p>
+            <FontAwesomeIcon icon={faBookmark} />
+            <h5>Save and Read Later</h5>
+            <p>Whether you're busy or want to revisit later, easily save and access articles at your convenience.</p>
           </div>
         </div>
       </div>

@@ -54,6 +54,10 @@
   font-size: 16px;
 }
 
+.newspaper svg {
+  color: white;
+}
+
 .marketing {
   display: flex;
   justify-content: center;
@@ -134,7 +138,7 @@
 }
 
 .featureItems {
-  display: inline-block;
+  flex: 1;
 }
 
 .featureItems h5 {
@@ -146,4 +150,8 @@
 .featureItems p {
   font-size: 14px;
   margin-top: 5px;
+}
+
+svg {
+  color: #284d9b;
 }
