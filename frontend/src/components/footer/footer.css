@@ -1,0 +1,129 @@
+.footer {
+  background-color: #284d9b;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0px;
+}
+
+.footerContainer {
+  width: 100%;
+  max-width: 1024px;
+  display: flex;
+  justify-content: center;
+}
+
+.footerItems {
+  flex: 1;
+  width: 100%;
+  justify-content: center;
+  max-width: 1024px;
+  margin: 10px;
+  background-color: #284d9b;
+  color: white;
+}
+
+.fiCompany {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0px;
+}
+
+.fiCompany > * {
+  flex: 1;
+}
+
+.fiCompany img {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 20px;
+}
+
+.fiDirectories {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin: 10px 0px;
+}
+
+.fiDirectories > * {
+  flex: 1;
+}
+
+.fiDirectoriesItems {
+  display: flex;
+}
+
+.fiDirectoriesItems > * {
+  flex: 1;
+}
+
+.fiSubscribe {
+  height: 100%;
+  margin: 10px 0px;
+}
+
+.fiSubscribe h4 {
+  margin-bottom: 38px;
+}
+
+.fiSubscribe input {
+  border-radius: 5px 0px 0px 5px;
+  border: none;
+  padding: 15px;
+}
+
+.fiSubscribe button {
+  border-radius: 0px 5px 5px 0px;
+  border: none;
+  background-color: lightblue;
+  padding: 15px;
+}
+
+.fiSubscribe svg {
+  color: #284d9b;
+}
+
+.footerCopyright {
+  width: 100%;
+  max-width: 1024px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+}
+
+.hLine {
+  width: 100%;
+  height: 2px;
+  margin: 0px 15px;
+  background-color: lightgray;
+}
+
+.fcBottom {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.socialMedia {
+  gap: 10px;
+}
+
+.socialMedia svg {
+  color: white;
+  border: 1px solid white;
+  padding: 7px;
+  border-radius: 50%;
+  margin: 0px 5px;
+  width: 16px;
+  height: 16px;
+}
+
+.trademark {
+  color: white;
+}
