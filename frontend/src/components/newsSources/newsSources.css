@@ -1,6 +1,7 @@
 .newsSources {
   display: flex;
   justify-content: center;
+  margin-bottom: 100px;
 }
 
 .nsContainer {
@@ -64,4 +65,6 @@
 
 .nsItemsList svg {
   margin-right: 10px;
+  width: 18px;
+  height: 18px;
 }

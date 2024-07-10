@@ -1,9 +1,8 @@
 import React from "react";
 import "./header.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBookmark, faNewspaper, faSave, faUser } from "@fortawesome/free-regular-svg-icons";
-import { faCogs, faFilter, faGlobe } from "@fortawesome/free-solid-svg-icons";
-import { faReadme } from "@fortawesome/free-brands-svg-icons";
+import { faBookmark, faNewspaper, faUser } from "@fortawesome/free-regular-svg-icons";
+import { faGlobe } from "@fortawesome/free-solid-svg-icons";
 
 const Header = () => {
   return (

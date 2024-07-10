@@ -1,11 +1,19 @@
 .navbar {
   height: 65px;
+  background-image: url("https://mediastack.com/site_images/shapes_bg.svg");
+  background-size: cover;
   background-color: #284d9b;
   display: flex;
   justify-content: center;
   position: sticky;
   top: 0;
-  z-index: 1;
+  z-index: 1000;
+  transition: transform 0.25s ease, opacity 0.25s ease 75ms;
+}
+
+.navbar.scrolled {
+  background-color: #264a94;
+  background-image: none;
 }
 
 .navContainer {
