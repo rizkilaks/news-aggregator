@@ -1,0 +1,100 @@
+.login {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 100vh;
+}
+
+.lContainerLogin {
+  position: relative;
+  justify-self: end;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  border-radius: 10px;
+  height: fit-content;
+  width: 500px;
+  padding: 40px;
+  margin: 100px 40px 40px 40px;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.lcLoginLogo img {
+  width: 100px;
+  height: 100px;
+}
+
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.loginForm label {
+  margin-bottom: 5px;
+}
+
+.loginForm input {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: calc(100% - 22px);
+}
+
+.loginForm input:hover {
+  border-color: #264a94;
+}
+
+.loginForm input:focus {
+  outline-color: #264a94;
+}
+
+.loginForm button {
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: #264a94;
+  color: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.passwordLabelLink {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.loginToRegister {
+  border: 1px solid #264a94;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.lContainerBlank {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.lContainerBlank button {
+  padding: 10px 20px;
+  background-color: #264a94;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.lContainerBlank svg {
+  position: fixed;
+  top: 30px;
+  right: 30px;
+  width: 50px;
+  height: 50px;
+}
