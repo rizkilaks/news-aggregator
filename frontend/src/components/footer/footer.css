@@ -19,7 +19,7 @@
   width: 100%;
   justify-content: center;
   max-width: 1024px;
-  margin: 10px;
+  margin: 20px 10px;
   background-color: #284d9b;
   color: white;
 }
@@ -27,7 +27,6 @@
 .fiCompany {
   display: flex;
   flex-direction: column;
-  margin: 10px 0px;
 }
 
 .fiCompany > * {

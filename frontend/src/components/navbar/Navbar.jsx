@@ -30,8 +30,12 @@ const Navbar = () => {
           <span className="logoName">Wor.ld</span>
         </div>
         <div className="navItems">
-          <button className="navButton">Register</button>
-          <button className="navButton">Login</button>
+          <a href="/register">
+            <button className="navButton">Register</button>
+          </a>
+          <a href="/login">
+            <button className="navButton">Login</button>
+          </a>
         </div>
       </div>
     </div>
